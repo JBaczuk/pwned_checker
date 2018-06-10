@@ -17,7 +17,7 @@ if [[ -z "$result" ]]; then
     exit 0
 else
     num_hacks=${result#*:}
-    echo "Warning: The number of times \"password\" $pwd has been hacked:"
+    echo "Warning: The number of times password \"$pwd\" has been hacked:"
     echo $num_hacks
     exit 0
 fi

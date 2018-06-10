@@ -11,7 +11,7 @@ $ chmod +x search_pwned_passwd.sh
 $ ./search_pwned_passwd.sh
 $ enter the password you want to search for:
 $ P@ssw0rd
-$ Warning: The number of times "password" P@ssw0rd has been hacked:
+$ Warning: The number of times password "P@ssw0rd" has been hacked:
 $ 47205
 ```
 
