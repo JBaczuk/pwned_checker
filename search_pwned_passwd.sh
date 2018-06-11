@@ -16,9 +16,9 @@ if [[ -z "$result" ]]; then
     echo "Password is safe!"
     exit 0
 else
-    num_hacks=${result#*:}
-    echo "Warning: The number of times password \"$pwd\" has been hacked:"
-    echo $num_hacks
+    num_leaks=${result#*:}
+    echo "Warning: The number of times password \"$pwd\" has been leaked:"
+    echo $num_leaks
     exit 0
 fi
 
